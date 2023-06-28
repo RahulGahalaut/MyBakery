@@ -1,0 +1,71 @@
+.developer-container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.developer-container h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.developer-profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.developer-info {
+  width: 80%;
+  font: larger;
+}
+
+.developer-contact-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.developer-contact-container a {
+  color: blue;
+}
+
+.developer-contact-container a:active {
+  color: red;
+}
+
+.contact-icon {
+  font-size: 30px;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .developer-info {
+    width: 100%;
+  }
+
+  .developer-profile-pic {
+    width: 125px;
+    height: 125px;
+  }
+
+  .developer-info {
+    width: 100%;
+    font: large;
+  }
+
+  .developer-contact-container {
+    width: 100%;
+  }
+
+  .contact-icon {
+    font-size: 25px;
+  }
+}
